@@ -146,7 +146,7 @@ export default class GridItem extends React.Component<Props, State> {
     // Selector for draggable cancel (see react-draggable)
     cancel: PropTypes.string,
     // options for react-draggable
-    draggableOptions: PropTypes.Object
+    draggableOptions: PropTypes.object
   };
 
   static defaultProps = {

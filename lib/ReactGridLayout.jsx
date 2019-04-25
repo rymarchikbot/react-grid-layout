@@ -105,7 +105,7 @@ export default class ReactGridLayout extends React.Component<Props, State> {
     // A selector for the draggable handler
     draggableHandle: PropTypes.string,
     //options for react-draggable
-    draggableOptions: PropTypes.Object,
+    draggableOptions: PropTypes.object,
 
     // Deprecated
     verticalCompact: function(props: Props) {
